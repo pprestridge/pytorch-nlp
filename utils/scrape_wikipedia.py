@@ -34,7 +34,7 @@ def scrape_links(num_articles):
         # Save off the text to a csv
         with open(os.path.join(data_path, title + '.csv'), 'w') as f:
             f.write(text)
-        return 0
+    return 0
 
 
 ######################
