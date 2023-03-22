@@ -13,7 +13,7 @@ def scrape_links(num_articles):
     '''Scrape links and save off text to csv files'''
 
     # Identify location to save off files
-    data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
+    data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'wikipedia')
 
 
     # Scrape the links
